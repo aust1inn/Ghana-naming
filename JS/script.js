@@ -1,3 +1,11 @@
+const btn = document.getElementById("bttn");
+btn.addEventListener('click', (e)=> {
+  e.preventDefault()
+  check()
+});
+
+function check(){
+
 function check () {
     let inputtedDay = document.getElementById("day").value;
     let inputtedMonth = document.getElementById("month").value;

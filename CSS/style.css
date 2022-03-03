@@ -2,8 +2,8 @@
     background-color: blue;
     width: 30%;
     height: 40vh;
-    text-align: center;
     justify-content: space-around;
+    position: absolute;
 }
 form {
     display: flex;
@@ -11,4 +11,6 @@ form {
     justify-content: space-around;
     height: 100%;
     width: 70%;
+    position: relative;
+    left: 20%;
 }
