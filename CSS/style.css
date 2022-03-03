@@ -1,11 +1,14 @@
 .form {
     background-color: blue;
-    width: 20%;
+    width: 30%;
     height: 40vh;
+    text-align: center;
+    justify-content: space-around;
 }
 form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
+    width: 70%;
 }
