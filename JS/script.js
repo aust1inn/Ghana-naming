@@ -29,8 +29,12 @@ function check (e) {
       alert("day must be between 1 and 31")
     }
 
-    if (inputtedMonth>12 || inputtedMonth<1) {
+    else if (inputtedMonth>12 || inputtedMonth<1) {
       alert("month value must be between 1 and 12")
+    }
+    
+    else if (inputtedYear=="") {
+      alert("input year")
     }
     else if (dayWeek==0 && gender=="female") {
         result.innerHTML = "Your Akan name is Akosua"
