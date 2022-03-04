@@ -1,11 +1,9 @@
 const btn = document.getElementById("bttn");
-btn.addEventListener('click', (e)=> {
-  e.preventDefault()
-  check()
-});
 
 
-function check () {
+
+function check (e) {
+    e.preventDefault()
     let inputtedDay = document.getElementById("day").value;
     let inputtedMonth = document.getElementById("month").value;
     let inputtedYear = document.getElementById("year").value;
@@ -29,70 +27,70 @@ function check () {
 
     // conditions for naming
     if (dayWeek==0 && gender=="female") {
-        result.textContent = "Your Akan name is Akosua"
+        result.innerHTML = "Your Akan name is Akosua"
     }
     else if (dayWeek==1 && gender=="female") {
-      result.textContent = "Your Akan name is Adwoa"
+      result.innerHTML = "Your Akan name is Adwoa"
  
     }
 
     else if (dayWeek==2 && gender=="female") {
-      result.textContent = "Your Akan name is Abenaa"
+      result.innerHTML = "Your Akan name is Abenaa"
 
     }
 
     else if (dayWeek==3 && gender=="female") {
-      result.textContent = "Your Akan name is Akua"
+      result.innerHTML = "Your Akan name is Akua"
 
     }
 
     else if (dayWeek==4 && gender=="female") {
-      result.textContent = "Your Akan name is Yaa"
+      result.innerHTML = "Your Akan name is Yaa"
 
     }
 
     
     else if (dayWeek==5 && gender=="female") {
-      result.textContent = "Your Akan name is Afua"
+      result.innerHTML = "Your Akan name is Afua"
 
     }
 
     else if (dayWeek==6 && gender=="female") {
-      result.textContent = "Your Akan name is Ama"
+      result.innerHTML = "Your Akan name is Ama"
 
     }
 
     else if (dayWeek==0 && gender=="male") {
-      result.textContent = "Your Akan name is Kwasi"
+      result.innerHTML = "Your Akan name is Kwasi"
 
     }
 
     else if (dayWeek==1 && gender=="male") {
-      result.textContent = "Your Akan name is Kwadwo"
+      result.innerHTML = "Your Akan name is Kwadwo"
 
     }
 
     else if (dayWeek==2 && gender=="male") {
-      result.textContent = "Your Akan name is Kwabena"
+      result.innerHTML = "Your Akan name is Kwabena"
 
     }
 
     else if (dayWeek==3 && gender=="male") {
-      result.textContent = "Your Akan name is Kwaku"
+      result.innerHTML = "Your Akan name is Kwaku"
 
     }
 
     else if (dayWeek==4 && gender=="male") {
-      result.textContent = "Your Akan name is Yaw"
+      result.innerHTML = "Your Akan name is Yaw"
 
     }
 
     else if (dayWeek==5 && gender=="male") {
-      result.textContent = "Your Akan name is Kofi"
+      result.innerHTML = "Your Akan name is Kofi"
 
     }
     else if (dayWeek==6 && gender=="male"){
-      result.textContent = "Your Akan name is Kwame"
+      result.innerHTML = "Your Akan name is Kwame"
 
     }
    
@@ -100,3 +98,4 @@ function check () {
     // form.style.display= "none"
     description.style.display= "none"
   }
+  btn.addEventListener('click', check);

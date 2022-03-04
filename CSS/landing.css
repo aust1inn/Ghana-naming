@@ -18,4 +18,5 @@ body {
 .block {
     background-color: darkorange;
     border-radius: 10px;
+    text-align: center;
 }
