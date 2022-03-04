@@ -91,10 +91,11 @@ function check () {
       result.textContent = "Your Akan name is Kofi"
 
     }
-    else {
+    else if (dayWeek==6 && gender=="male"){
       result.textContent = "Your Akan name is Kwame"
 
     }
+   
 
     // form.style.display= "none"
     description.style.display= "none"

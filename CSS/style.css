@@ -13,7 +13,6 @@ body {
     width: 30%;
     height: 40vh;
     justify-content: space-around;
-    position: absolute;
 }
 form {
     display: flex;
