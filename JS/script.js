@@ -25,63 +25,77 @@ function check () {
     let description = document.getElementById("description")
     let form = document.getElementById("form")
     
-    form.style.display= "none"
-    description.style.display= "none"
+    
 
     // conditions for naming
     if (dayWeek==0 && gender=="female") {
-        alert("yo")
+        result.textContent = "Your Akan name is Akosua"
     }
     else if (dayWeek==1 && gender=="female") {
-        
-    }
-
-    else if (dayWeek==1 && gender=="female") {
-        
+      result.textContent = "Your Akan name is Adwoa"
+ 
     }
 
-    else if (dayWeek==1 && gender=="female") {
-        
+    else if (dayWeek==2 && gender=="female") {
+      result.textContent = "Your Akan name is Abenaa"
+
     }
 
-    else if (dayWeek==1 && gender=="female") {
-        
+    else if (dayWeek==3 && gender=="female") {
+      result.textContent = "Your Akan name is Akua"
+
+    }
+
+    else if (dayWeek==4 && gender=="female") {
+      result.textContent = "Your Akan name is Yaa"
+
     }
 
     
-    else if (dayWeek==1 && gender=="female") {
-        
+    else if (dayWeek==5 && gender=="female") {
+      result.textContent = "Your Akan name is Afua"
+
     }
 
-    else if (dayWeek==1 && gender=="female") {
-        
+    else if (dayWeek==6 && gender=="female") {
+      result.textContent = "Your Akan name is Ama"
+
     }
 
-    else if (dayWeek==1 && gender=="male") {
-        
-    }
+    else if (dayWeek==0 && gender=="male") {
+      result.textContent = "Your Akan name is Kwasi"
 
-    else if (dayWeek==1 && gender=="male") {
-        
-    }
-
-    else if (dayWeek==1 && gender=="male") {
-        
     }
 
     else if (dayWeek==1 && gender=="male") {
-        
+      result.textContent = "Your Akan name is Kwadwo"
+
     }
 
-    else if (dayWeek==1 && gender=="male") {
-        
+    else if (dayWeek==2 && gender=="male") {
+      result.textContent = "Your Akan name is Kwabena"
+
     }
 
-    else if (dayWeek==1 && gender=="male") {
-        
+    else if (dayWeek==3 && gender=="male") {
+      result.textContent = "Your Akan name is Kwaku"
+
+    }
+
+    else if (dayWeek==4 && gender=="male") {
+      result.textContent = "Your Akan name is Yaw"
+
+    }
+
+    else if (dayWeek==5 && gender=="male") {
+      result.textContent = "Your Akan name is Kofi"
+
     }
     else {
-        
+      result.textContent = "Your Akan name is Kwame"
+
     }
 
+    // form.style.display= "none"
+    description.style.display= "none"
   }
