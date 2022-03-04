@@ -1,7 +1,6 @@
 const btn = document.getElementById("bttn");
 
 
-
 function check (e) {
     e.preventDefault()
     let inputtedDay = document.getElementById("day").value;
@@ -26,7 +25,14 @@ function check (e) {
     
 
     // conditions for naming
-    if (dayWeek==0 && gender=="female") {
+    if (inputtedDay>31 || inputtedDay<1) {
+      alert("day must be between 1 and 31")
+    }
+
+    if (inputtedMonth>12 || inputtedMonth<1) {
+      alert("month value must be between 1 and 12")
+    }
+    else if (dayWeek==0 && gender=="female") {
         result.innerHTML = "Your Akan name is Akosua"
     }
     else if (dayWeek==1 && gender=="female") {
@@ -94,7 +100,7 @@ function check (e) {
 
     }
    
-
+   
     // form.style.display= "none"
     description.style.display= "none"
   }

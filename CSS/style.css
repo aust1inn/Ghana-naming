@@ -27,3 +27,7 @@ form {
     margin-left: 30%;
     margin-top: 10%;
 }
+.result {
+    font-weight: bolder;
+    font-size: x-large;
+}
