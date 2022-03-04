@@ -4,7 +4,6 @@ btn.addEventListener('click', (e)=> {
   check()
 });
 
-function check(){
 
 function check () {
     let inputtedDay = document.getElementById("day").value;
@@ -21,9 +20,15 @@ function check () {
     let p = new Date(ourDay)
     let dayWeek = p.getDay();
 
-    // alert (dayWeek)
-    // alert(gender)
+
+    let result = document.getElementById("result");
+    let description = document.getElementById("description")
+    let form = document.getElementById("form")
     
+    form.style.display= "none"
+    description.style.display= "none"
+
+    // conditions for naming
     if (dayWeek==0 && gender=="female") {
         alert("yo")
     }
@@ -79,4 +84,4 @@ function check () {
         
     }
 
-}
+  }

@@ -13,13 +13,13 @@
  <div class="container">
 
     <h3>Akan naming</h3>
-    <div class="description">
+    <div class="description" id="description">
         <p>A web application that takes a user's birthday and<br>
            determines the day of the week on which they were<br>
            born, then outputs their Akan Name based on their gender.</p>
     </div>
   
-     <div class="form">
+     <div class="form" id="form">
         <form name="birth" >
             <label for="day">day</label>
             <input type="number" id="day" min="1" max="31" required>
@@ -36,6 +36,7 @@
     
             <input type="submit" value="submit" id="bttn" onclick="check()" />
         </form>
+        <div class="result" id="result"></div>
      </div>
     
  </div>   
