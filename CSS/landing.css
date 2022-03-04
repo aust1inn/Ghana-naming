@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+
+}
+.genderName {
+    display: flex;
+}
