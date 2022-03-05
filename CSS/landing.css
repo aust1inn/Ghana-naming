@@ -39,3 +39,18 @@ body {
     font-weight: bolder;
     background-color: paleturquoise;
 }
+
+/* media queries */
+@media screen and (max-width: 900px) {
+
+    .block{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .block{
+        font-size: smaller;
+    }
+}
