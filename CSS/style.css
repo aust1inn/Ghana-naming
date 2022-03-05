@@ -32,3 +32,15 @@ form {
     font-size: x-large;
     color: white;
 }
+
+/* media queries */
+@media screen and (max-width: 900px){
+   
+
+    .form {
+        margin-left: 20%;
+    }
+    .container{
+        margin-left: 10%;
+    }
+}
