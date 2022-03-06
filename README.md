@@ -17,7 +17,6 @@ Project by Austin Omondi. email at austinotieno364@gmail.com.
   A web application that takes a user's birthday and determines the day of the week on which they were born, then outputs their Akan Name based on their gender.
   
   ##  Demo
-This is the link to the design of the amazing site
 
 Below is the link to the live demo
 https://aust1inn.github.io/Ghana-naming/
@@ -49,8 +48,7 @@ To fix a bug or enhance an existing module, follow these steps:
 -Create a Pull Request
 
 ## Requirements
-You only need a mobile phone,desktop or a laptop with an internet connection in addition to 
-some knowledge of our beautiful world to crack the fun quiz.
+You only need a mobile phone,desktop or a laptop with an internet connection 
 
 ## License
 Copyright (c) [2022] [Austin Omondi]
